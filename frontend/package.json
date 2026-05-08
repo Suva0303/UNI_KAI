@@ -1,0 +1,34 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:win": "set VITE_PROXY_API=http://127.0.0.1:8000&& vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "preview:4180": "vite preview --host 127.0.0.1 --port 4180 --strictPort"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.4",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "autoprefixer": "^10.5.0",
+    "axios": "^1.16.0",
+    "chart.js": "^4.5.1",
+    "echarts": "^6.0.0",
+    "lucide-vue-next": "^1.0.0",
+    "papaparse": "^5.5.3",
+    "pinia": "^3.0.4",
+    "tailwindcss": "^4.2.4",
+    "vue": "^3.5.33",
+    "vue-chartjs": "^5.3.3",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^5.0.6",
+    "vue-sonner": "^2.0.9"
+  }
+}
