@@ -1,6 +1,18 @@
-# UNI — дашборд выпускников и админка
+# UNI — система анализа трудоустройства выпускников
 
-Веб-приложение: публичный дашборд по витрине `mart`, каталог вузов, статьи; админка — загрузка CSV, справочник вузов, JWT-авторизация.
+Веб-приложение для централизованного сбора, ETL-обработки и визуализации обезличенных данных о трудоустройстве выпускников. Реализована трехуровневая архитектура хранилища (staging, dwh, mart), автоматизированная загрузка CSV, очистка, дедупликация, нормализация, расчёт KPI (уровень занятости, медианная зарплата, соответствие специальности). Ролевая модель: администратор (загрузка данных, управление справочниками) и аналитик (дашборды, сравнение вузов, фильтрация). Аутентификация — JWT.
+
+## Стек технологий
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="60" alt="Python" title="Python"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="60" alt="FastAPI" title="FastAPI"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="60" alt="PostgreSQL" title="PostgreSQL"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="60" alt="Vue" title="Vue"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="60" alt="Pandas" title="Pandas"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlalchemy/sqlalchemy-original.svg" height="60" alt="SQLAlchemy" title="SQLAlchemy"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" height="60" alt="Vite" title="Vite"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chartjs/chartjs-original.svg" height="60" alt="Chart.js" title="Chart.js"/>
+</p>
 
 ## Требования
 
